@@ -1,11 +1,8 @@
 import "./App.css";
+import Hero from "./Components/Hero";
 
 function App() {
-  return (
-    <div className="text-3xl font-bold underline">
-      <h1>This is the background now </h1>
-    </div>
-  );
+  return <Hero></Hero>;
 }
 
 export default App;
