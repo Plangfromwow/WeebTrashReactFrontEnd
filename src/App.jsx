@@ -2,7 +2,7 @@ import "./App.css";
 import Hero from "./Components/Hero";
 
 function App() {
-  return <Hero></Hero>;
+  return <Hero />;
 }
 
 export default App;
