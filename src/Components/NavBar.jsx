@@ -85,7 +85,7 @@ export default function NavBar() {
         </div>
         <a className="btn btn-ghost normal-case text-xl">weebTrash</a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
             <a>Shop</a>
