@@ -6,9 +6,15 @@ import Reviews from "./Components/Reviews";
 function App() {
   return (
     <>
-      <Hero />
-      <Reviews></Reviews>
-      <Contact></Contact>
+      <section className="m-1">
+        <Hero />
+      </section>
+      <section className="m-1">
+        <Reviews></Reviews>
+      </section>
+      <section className="m-1">
+        <Contact></Contact>
+      </section>
     </>
   );
 }
