@@ -10,7 +10,7 @@ export default function Contact() {
           />
           <div>
             <h1 className="text-5xl font-bold mb-5">Let us know whats up</h1>
-            <a href="mailto: ">
+            <a href="mailto:weebtrashorg@gmail.com ">
               <button className="btn btn-primary">Email Us</button>
             </a>
           </div>
