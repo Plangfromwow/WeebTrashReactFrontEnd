@@ -1,3 +1,4 @@
+import { ReactComponent as WnLogo } from "../assets/wn-mark-base.svg";
 export default function Footer() {
   return (
     <footer className="footer items-center p-4 bg-neutral text-neutral-content">
@@ -14,6 +15,14 @@ export default function Footer() {
         </p>
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <a
+          href="https://twitter.com/weebtrashorg"
+          target="_blank"
+          rel="noreferrer"
+          className="fill-current w-9 h-6 mt-1"
+        >
+          <WnLogo />
+        </a>
         <a
           href="https://twitter.com/weebtrashorg"
           target="_blank"
