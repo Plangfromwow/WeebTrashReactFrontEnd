@@ -2,7 +2,7 @@
 export default function Contact() {
   return (
     <>
-      <div className="hero bg-secondary">
+      <div className="hero bg-secondary" id="contact-us">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="../Public/TrashCanNoBackground.png"

@@ -32,7 +32,7 @@ export default function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="w-8 border-red-500">
+                <div className="w-8">
                   <WnLogo />
                 </div>
               </a>
@@ -88,7 +88,7 @@ export default function NavBar() {
               </a>
             </li>
             <li>
-              <a>Contact Us</a>
+              <a href="#contact-us">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -104,7 +104,7 @@ export default function NavBar() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="w-9 border-red-600">
+              <div className="w-9">
                 <WnLogo className="w-9 h-6" />
               </div>
             </a>
@@ -159,7 +159,7 @@ export default function NavBar() {
             </a>
           </li>
           <li className=" h-7">
-            <a>Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
