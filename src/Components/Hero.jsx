@@ -1,5 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 
+
 export default function Hero() {
   return (
     <div className="hero min-h-screen">
