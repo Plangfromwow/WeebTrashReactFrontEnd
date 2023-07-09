@@ -6,13 +6,13 @@ import Reviews from "./Components/Reviews";
 function App() {
   return (
     <>
-      <section className="m-1">
+      <section>
         <Hero />
       </section>
-      <section className="m-1">
+      <section>
         <Reviews></Reviews>
       </section>
-      <section className="m-1">
+      <section>
         <Contact></Contact>
       </section>
     </>

@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={TrashCan}
-            className="max-w-sm rounded-full shadow-2xl ml-4"
+            className=" lg:md:max-w-sm rounded-full shadow-2xl"
           />
           <div>
             <h1 className="text-5xl font-bold mb-5">Let us know whats up</h1>
