@@ -1,3 +1,5 @@
+import TrashCan from "../assets/TrashCanNoBackground.png";
+
 export default function Card(props) {
   // eslint-disable-next-line react/prop-types
   const { name, review } = props;
@@ -6,7 +8,7 @@ export default function Card(props) {
     <div className="card w-96 bg-base-100 shadow-xl">
       <div className="avatar m-2">
         <div className="w-24 rounded-full ring ring-accent ring-offset-primary ring-offset-2 ">
-          <img src="../../Public/TrashCanNoBackground.png" />
+          <img src={TrashCan} />
         </div>
       </div>
       <div className="card-body">

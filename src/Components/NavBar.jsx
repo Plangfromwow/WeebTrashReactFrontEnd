@@ -1,5 +1,5 @@
 import { ReactComponent as WnLogo } from "../assets/wn-mark-base.svg";
-import TrashCan from "../../public/TrashCanNoBackground.png";
+import TrashCan from "../assets/TrashCanNoBackground.png";
 
 export default function NavBar() {
   return (

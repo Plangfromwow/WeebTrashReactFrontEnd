@@ -1,11 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+import TrashCan from "../assets/TrashCanNoBackground.png";
+
 export default function Contact() {
   return (
     <>
       <div className="hero bg-secondary" id="contact-us">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="../Public/TrashCanNoBackground.png"
+            src={TrashCan}
             className="max-w-sm rounded-full shadow-2xl ml-4"
           />
           <div>
