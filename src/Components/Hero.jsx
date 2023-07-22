@@ -1,9 +1,14 @@
 import { TypeAnimation } from "react-type-animation";
-
+import CityViewTemp from "../assets/CityViewTemp.jpg";
 
 export default function Hero() {
   return (
-    <div className="hero min-h-screen">
+    <div
+      className="hero min-h-screen"
+      style={{
+        backgroundImage: `url(${CityViewTemp})`,
+      }}
+    >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
