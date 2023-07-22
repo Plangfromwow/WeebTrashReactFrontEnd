@@ -27,19 +27,25 @@ export default function Hero() {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary">
-            Find Your
-            <TypeAnimation
-              sequence={["Waifu", 10000, "Husbando", 10000]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-              className="bg-gradient-to-r bg-clip-text  text-transparent 
+          <a
+            href="https://www.whatnot.com/user/weebtrashorg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn btn-primary">
+              Find Your
+              <TypeAnimation
+                sequence={["Waifu", 10000, "Husbando", 10000]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+                className="bg-gradient-to-r bg-clip-text  text-transparent 
             from-accent to-secondary
             animate-text"
-              cursor={false}
-            />
-          </button>
+                cursor={false}
+              />
+            </button>
+          </a>
         </div>
       </div>
     </div>

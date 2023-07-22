@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a
-          href="https://twitter.com/weebtrashorg"
+          href="https://www.whatnot.com/user/weebtrashorg"
           target="_blank"
           rel="noreferrer"
           className="fill-current w-9 h-6 mt-1"
