@@ -22,7 +22,20 @@ const reviews = [{
     id: 6,
     name: 'wlfgurl',
     review: "Love my new Evangelion stuff :) great prices, everything was packaged well! Thanks again."
-}]
+}, {
+    id: 7,
+    name: 'pookyuni',
+    review: "The figure came in perfect condition. My bf will be really happy with this gift! Thank you so much!"
+}, {
+    id: 8,
+    name: 'natcat45',
+    review: "Really great selection of items. Great packaging and fast shipping! Will definitely buy from again 🥰"
+}, {
+    id: 9,
+    name: 'spacexnenexganj1',
+    review: "I got a dope asuka figure from a dope streamer on whatnot. She's fire merch anime and can't wait for more shows."
+}
+]
 
 
 export default reviews;
