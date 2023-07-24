@@ -23,9 +23,10 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Weeb Trash: Downriver&apos;s anime haven since 2022! Unearth a
+            treasure trove of figures, wall scrolls, keychains, posters, towels,
+            and more. Embrace your inner weeb and indulge in the world of
+            Japanese animation with us!
           </p>
           <a
             href="https://www.whatnot.com/user/weebtrashorg"
