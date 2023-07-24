@@ -11,7 +11,7 @@ export default function Contact() {
             className=" lg:md:max-w-sm rounded-full shadow-2xl"
           />
           <div>
-            <h1 className="text-5xl font-bold mb-5">Let us know whats up</h1>
+            <h1 className="text-5xl font-bold mb-5">Let us know what's up</h1>
             <a href="mailto:weebtrashorg@gmail.com ">
               <button className="btn btn-primary">Email Us</button>
             </a>
