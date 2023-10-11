@@ -11,9 +11,11 @@ export default function Contact() {
             className=" lg:md:max-w-sm rounded-full shadow-2xl"
           />
           <div>
-            <h1 className="text-5xl font-bold mb-5">Let us know what's up</h1>
-            <a href="mailto:weebtrashorg@gmail.com ">
-              <button className="btn btn-primary">Email Us</button>
+            <h1 className="text-5xl font-bold mb-5">
+              See what's going on over at our Discord
+            </h1>
+            <a href="https://discord.gg/V2zA7G9ah4">
+              <button className="btn btn-primary">Join Us</button>
             </a>
           </div>
         </div>
