@@ -87,7 +87,7 @@ export default function NavBar() {
               </a>
             </li>
             <li>
-              <a href="#contact-us">Contact Us</a>
+              <a href="mailto:weebtrashorg@gmail.com">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -157,7 +157,7 @@ export default function NavBar() {
             </a>
           </li>
           <li className=" h-7">
-            <a href="#contact-us">Contact Us</a>
+            <a href="mailto:weebtrashorg@gmail.com">Contact Us</a>
           </li>
         </ul>
       </div>
