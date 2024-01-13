@@ -29,7 +29,7 @@ export default function Hero() {
             Japanese animation with us!
           </p>
           <a
-            href="https://www.whatnot.com/user/weebtrashorg"
+            href="https://weebtrash.limitedrun.com"
             target="_blank"
             rel="noreferrer"
           >
