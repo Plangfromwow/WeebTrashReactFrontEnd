@@ -11,7 +11,7 @@ export default function Hero() {
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
+        <div className="max-w-md lg:max-w-3xl">
           <h1 className="mb-5 text-5xl font-bold">
             By Weebs, For{" "}
             <span
@@ -22,7 +22,7 @@ export default function Hero() {
               Weebs
             </span>
           </h1>
-          <p className="mb-5">
+          <p className="mb-5 lg:text-2xl">
             Weeb Trash: Downriver&apos;s anime haven since 2022! Unearth a
             treasure trove of figures, wall scrolls, keychains, posters, towels,
             and more. Embrace your inner weeb and indulge in the world of
