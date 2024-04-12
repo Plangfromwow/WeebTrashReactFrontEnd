@@ -111,7 +111,7 @@ export default function NavBar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost btm-nav-md normal-case text-xl content-center">
+        <a href="/" className="btn btn-ghost btm-nav-md normal-case text-xl content-center">
           <img src={TrashCan} alt="WeebTrash Icon" className="h-20 w-20" />
         </a>
       </div>
@@ -198,6 +198,9 @@ export default function NavBar() {
           </li>
           <li className=" h-7">
             <a href="mailto:weebtrashorg@gmail.com">Contact Us</a>
+          </li>
+          <li className=" h-7">
+            <a href="/events">Events</a>
           </li>
         </ul>
       </div>

@@ -1,22 +1,34 @@
 import "./App.css";
-import Contact from "./Components/Contact";
-import Hero from "./Components/Hero";
-import Reviews from "./Components/Reviews";
+import Home from "./Pages/home";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <Home />
+  },
+  {
+    path:"/events",
+    element:<h1>Events Page!</h1>
+  }
+])
+
+
+
 
 function App() {
   return (
     <>
-      <section>
-        <Hero />
-      </section>
-      <section>
-        <Reviews></Reviews>
-      </section>
-      <section>
-        <Contact></Contact>
-      </section>
+      <RouterProvider router={router}></RouterProvider>
     </>
   );
 }
+
+
+
+
+
+
 
 export default App;
