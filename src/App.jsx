@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./Pages/home";
+import Events from "./Pages/events";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path:"/events",
-    element:<h1>Events Page!</h1>
+    element:<Events />
   }
 ])
 
