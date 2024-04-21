@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown z-10">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -109,6 +109,9 @@ export default function NavBar() {
             </li>
             <li>
               <a href="mailto:weebtrashorg@gmail.com">Contact Us</a>
+            </li>
+            <li className=" h-7">
+              <a href="/events/">Events</a>
             </li>
           </ul>
         </div>

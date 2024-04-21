@@ -6,12 +6,11 @@
  * @returns jsx
  */
 
-
 function EventCard(props) {
 
     return <>
     <div className="card lg:card-side bg-base-100 shadow-xl m-10">
-  <figure><img src={props.img} alt="MonroePopFestSplash"/></figure>
+  <figure className="aspect-square max-w-72"><img src={props.pic} alt="MonroePopFestSplash"/></figure>
   <div className="card-body">
     <h1 className="card-title">{props.name}! {props.date}</h1>
     <h2>{props.description}</h2>
