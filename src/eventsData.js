@@ -9,7 +9,7 @@ const eventData = [
         "id": 1,
         "name": "LTUX 2024",
         "date": "04/27/24",
-        "place": "The Modern Exchange",
+        "place": " Lawrence Tech University",
         "address": "21000 W 10 Mile Rd, Southfield, MI",
         "linkToTickets": "https://www.ltuexpo.com/",
         "description": "LTUX is a FREE annual campus-wide expo at Lawrence Technological University that combines games, esports, & anime to showcase local talent in the form of local game showcases, cosplay workshops, gaming tournaments, panels, vendors, and more!",

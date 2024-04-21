@@ -14,8 +14,10 @@ function EventCard(props) {
   <div className="card-body">
     <h1 className="card-title">{props.name}! {props.date}</h1>
     <h2>{props.description}</h2>
-    <h3>{props.place}</h3>
-    <h3>Location: <a href={`https://www.google.com/maps/search/?api=1&query=${props.address.replace(/ /g,'')}`} target="_blank" rel="noreferrer">{props.address}</a></h3>
+    <a href={`https://www.google.com/maps/search/?api=1&query=${props.address.replace(/ /g,'')}`} target="_blank" rel="noreferrer">
+    <h3 className="font-medium">{props.place}</h3>
+    <h3>Location: {props.address}</h3>
+    </a>
     <div className="card-actions justify-end">
       <a href={props.linkToTickets} target="_blank" rel="noreferrer"><button className="btn btn-primary">Get Tickets!</button></a>
     </div>
