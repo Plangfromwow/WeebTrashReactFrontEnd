@@ -1,8 +1,10 @@
 import "./App.css";
 import Home from "./Pages/home";
+import NavBar from "./Components/NavBar"
+import Footer from "./Components/Footer"
 import Events from "./Pages/events";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -14,12 +16,14 @@ import {
 function App() {
   return (
     <>
-      <Router>
+      <NavBar></NavBar>
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
+      <Footer></Footer>
     </>
   );
 }

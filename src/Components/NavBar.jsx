@@ -1,5 +1,6 @@
 import { ReactComponent as WnLogo } from "../assets/wn-mark-base.svg";
 import TrashCan from "../assets/TrashCanNoBackground.png";
+//import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -200,7 +201,7 @@ export default function NavBar() {
             <a href="mailto:weebtrashorg@gmail.com">Contact Us</a>
           </li>
           <li className=" h-7">
-            <a href="/events">Events</a>
+            <a href="/events/">Events</a>
           </li>
         </ul>
       </div>
