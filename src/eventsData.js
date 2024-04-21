@@ -13,7 +13,7 @@ const eventData = [
         "address": "21000 W 10 Mile Rd, Southfield, MI",
         "linkToTickets": "https://www.ltuexpo.com/",
         "description": "LTUX is a FREE annual campus-wide expo at Lawrence Technological University that combines games, esports, & anime to showcase local talent in the form of local game showcases, cosplay workshops, gaming tournaments, panels, vendors, and more!",
-        "pic": "src\\assets\\MonroePopFestSplash.jpg"
+        "pic": "\\assets\\MONROECOMICCON.jpg"
     }, // Seperate by commas
 
     {
@@ -24,7 +24,7 @@ const eventData = [
         "address": "4232 Fort St, Lincoln Park, MI",
         "linkToTickets": "https://fb.me/e/23thUhO5B",
         "description": "Local vendors will have a variety of handmade and custom items for sale including: jewelry, keychains, stickers, shirts, hats, crocheted plushies, tea, incense, anime figures, 3D printed figures, cupcakes, cookies, breads, lemonade, tacos, artwork, solar lights and more!",
-        "pic": "src\\assets\\MonroePopFestSplash.jpg"
+        "pic": "\\assets\\MonroePopFestSplash.jpg"
     },
 
     {
@@ -35,7 +35,7 @@ const eventData = [
         "address": "21111 Haggerty Rd, Novi, MI",
         "linkToTickets": "https://www.otakudetroit.com/registration-info",
         "description": "It will be 2 days of jammed packed fun including gaming, panels, Saturday night Rave, Flea Market, Cosplay Masquerade and much more! More information will be coming very soon, including a special room rate and badge info.",
-        "pic": "src\\assets\\MonroePopFestSplash.jpg"
+        "pic": "\\assets\\OTAKUDETROIT.jpg"
     },
 
     {
@@ -46,7 +46,7 @@ const eventData = [
         "address": "3501 Lapeer Rd, Flint, MI",
         "linkToTickets": "https://www.reallycoolcomiccon.com/",
         "description": "Comics, toys, anime, video games, artists, celebrity guest, table top gaming, cosplay, Pokemon, & pop culture collectibles.",
-        "pic": "src\\assets\\MonroePopFestSplash.jpg"
+        "pic": "\\assets\\REALLYCOOLCOMICCON.jpg"
     },
 
     {
@@ -57,7 +57,7 @@ const eventData = [
         "address": "3775 South Custer Road Monroe, MI 48161",
         "linkToTickets": "https://www.purplepass.com/?inref=l.facebook.com#283179/Monroe_Pop_Fest-12th_Annual_Monroe_Comic_Con-FNB_Expo_Center-September-13-2024.html",
         "description": "Over 150 comic book, toy, craft and artist vendors plus cosplay, food trucks, interactive panels. gaming and so much more!",
-        "pic": "src\\assets\\MonroePopFestSplash.jpg"
+        "pic": "\\assets\\MONROECOMICCON.jpg"
     },
 
 ]
