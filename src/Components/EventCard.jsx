@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 /* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
 /**
@@ -9,6 +11,16 @@
 function EventCard(props) {
 
     return <>
+    <motion.div
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{
+      duration: 0.5,
+      delay: props.id / 5,
+      ease: [0, 0.71, 0.2, 1.01]
+    }}
+    >
+
     <div className="card lg:card-side bg-base-100 shadow-xl m-10">
   <figure className="aspect-square max-w-72"><img src={props.pic} alt="MonroePopFestSplash"/></figure>
   <div className="card-body">
@@ -23,6 +35,7 @@ function EventCard(props) {
     </div>
   </div>
 </div>
+    </motion.div>
     </>
 }
 
