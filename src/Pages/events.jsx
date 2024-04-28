@@ -1,7 +1,11 @@
 import EventList from "../Components/EventList";
 
 function Events(){
-    return <EventList></EventList>
+    return(
+    <div className="bg-accent">
+    <EventList></EventList>
+    </div>
+    ) 
 }
 
 

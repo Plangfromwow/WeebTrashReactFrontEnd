@@ -22,12 +22,12 @@ export default function Hero() {
               Weebs
             </span>
           </h1>
-          <p className="mb-5 lg:text-2xl">
+          <h2 className="mb-5 lg:text-2xl">
             Weeb Trash: Downriver&apos;s anime haven since 2022! Unearth a
             treasure trove of figures, wall scrolls, keychains, posters, towels,
             and more. Embrace your inner weeb and indulge in the world of
             Japanese animation with us!
-          </p>
+          </h2>
           <a
             href="https://weebtrash.limitedrun.com"
             target="_blank"

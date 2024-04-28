@@ -15,7 +15,7 @@ export default {
 
           "secondary": "#CFE3F8",
 
-          "accent": "#FFC14D",
+          "accent": "#e1cafa",
 
           "neutral": "#191D24",
 

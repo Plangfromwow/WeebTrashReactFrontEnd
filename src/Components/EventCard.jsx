@@ -15,13 +15,13 @@ function EventCard(props) {
     initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{
-      duration: 0.5,
+      duration: 0.25,
       delay: props.id / 5,
       ease: [0, 0.71, 0.2, 1.01]
     }}
     >
 
-    <div className="card lg:card-side bg-base-100 shadow-xl m-10">
+    <div className="card lg:card-side bg-base-100 shadow-xl lg:ml-20 lg:mr-20 m-10">
   <figure className="aspect-square max-w-72"><img src={props.pic} alt="MonroePopFestSplash"/></figure>
   <div className="card-body">
     <h1 className="card-title">{props.name}! {props.date}</h1>

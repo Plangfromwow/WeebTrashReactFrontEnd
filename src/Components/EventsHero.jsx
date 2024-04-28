@@ -14,7 +14,7 @@ export default function EventHero() {
           </div>
           <img
             src="..\\pics\\WeebTrashEventPic.jpeg"
-            className=" lg:md:max-w-md rounded-full shadow-2xl"
+            className=" lg:md:max-w-lg rounded-full shadow-2xl"
           />
         </div>
       </div>
