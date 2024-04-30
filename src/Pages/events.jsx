@@ -2,7 +2,7 @@ import EventList from "../Components/EventList";
 
 function Events(){
     return(
-    <div className="bg-accent">
+    <div>
     <EventList></EventList>
     </div>
     ) 
