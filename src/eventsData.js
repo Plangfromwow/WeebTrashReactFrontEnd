@@ -4,20 +4,8 @@
  */
 const eventData = [
     //Should be able to copy paste one after you make it and just fill it out 
-
     {
-        "id": 1,
-        "name": "LTUX 2024",
-        "date": "04/27/24",
-        "place": " Lawrence Tech University",
-        "address": "21000 W 10 Mile Rd, Southfield, MI",
-        "linkToTickets": "https://www.ltuexpo.com/",
-        "description": "LTUX is a FREE annual campus-wide expo at Lawrence Technological University that combines games, esports, & anime to showcase local talent in the form of local game showcases, cosplay workshops, gaming tournaments, panels, vendors, and more!",
-        "pic": "..\\pics\\LTUX.jpg"
-    }, // Seperate by commas
-
-    {
-        "id": 2, //Increment this by 1 for each event
+        "id": 1, //Increment this by 1 for each event
         "name": "Spring Fling @ The 8th Side",
         "date": "05/11/24",
         "place": "The 8th Side",
@@ -28,7 +16,7 @@ const eventData = [
     },
 
     {
-        "id": 3,
+        "id": 2,
         "name": "Otaku Detroit Summer Bash 2024!",
         "date": "07/13/24 - 07/14/24",
         "place": "Sheraton Detroit Novi Hotel",
@@ -39,7 +27,7 @@ const eventData = [
     },
 
     {
-        "id": 4,
+        "id": 3,
         "name": "Really Cool Comic Con",
         "date": "08/03/24 - 08/04/24",
         "place": "Dort Financial Center",
@@ -50,7 +38,7 @@ const eventData = [
     },
 
     {
-        "id": 5,
+        "id": 4,
         "name": "Monroe Comic Con",
         "date": "09/13/24 - 09/14/24",
         "place": "MBT Expo Center",
@@ -59,6 +47,17 @@ const eventData = [
         "description": "Over 150 comic book, toy, craft and artist vendors plus cosplay, food trucks, interactive panels. gaming and so much more!",
         "pic": "..\\pics\\MONROECOMICCON.jpg"
     },
+    {
+        "id": 5,
+        "name": "Youmacon",
+        "date": "10/31/24 - 11/03/24",
+        "place": "Huntington Place",
+        "address": "1 Washington Blvd, Detroit, MI 48226",
+        "linkToTickets": "https://www.youmacon.com/",
+        "description": "Youmacon is a celebration of Japanese animation, videogames, popular culture and costuming, and its influence on our own culture over the past few decades. Common themes throughout the event are Anime (Japanese animation), video games, Japanese-style artwork and comics, and the rising Internet culture influenced by all of the above."
+        , "pic": "..\\pics\\Youmacon.jpg"
+    },
+
 
 ]
 
