@@ -21,7 +21,7 @@ function EventCard(props) {
     }}
     >
 
-    <div className="card lg:card-side bg-base-100 shadow-xl lg:ml-20 lg:mr-20 m-10">
+    <div className="card lg:card-side bg-[#FAF5FF] shadow-xl lg:ml-20 lg:mr-20 m-10">
   <figure className="aspect-square max-w-72"><img src={props.pic} alt="MonroePopFestSplash"/></figure>
   <div className="card-body">
     <h1 className="card-title">{props.name}! {props.date}</h1>
