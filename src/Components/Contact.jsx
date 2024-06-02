@@ -12,7 +12,14 @@ export default function Contact() {
           />
           <div>
             <h1 className="text-5xl font-bold mb-5">
-              See what's going on over at our Discord
+              See what's going on over at our{" "}
+              <span
+                className="bg-gradient-to-r bg-clip-text  text-transparent 
+            from-accent to-black
+            animate-text"
+              >
+                Discord
+              </span>
             </h1>
             <a href="https://discord.gg/V2zA7G9ah4">
               <button className="btn btn-primary">Join Us</button>

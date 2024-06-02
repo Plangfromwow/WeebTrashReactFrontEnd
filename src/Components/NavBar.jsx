@@ -28,11 +28,7 @@ export default function NavBar() {
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a
-                href="https://weebtrash.limitedrun.com"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="/store/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -115,18 +111,17 @@ export default function NavBar() {
             </li>
           </ul>
         </div>
-        <a href="/" className="btn btn-ghost btm-nav-md normal-case text-xl content-center">
+        <a
+          href="/"
+          className="btn btn-ghost btm-nav-md normal-case text-xl content-center"
+        >
           <img src={TrashCan} alt="WeebTrash Icon" className="h-20 w-20" />
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a
-              href="https://weebtrash.limitedrun.com"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/store/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

@@ -8,6 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import ComingSoon from "./Pages/ComingSoon";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/store" element={<ComingSoon/>} / >
         </Routes>
       </BrowserRouter>
       <Footer></Footer>
