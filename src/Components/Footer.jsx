@@ -16,7 +16,7 @@ export default function Footer() {
         </p>
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <a href="/store/">
+        <a href="https://weebtrashorg.square.site/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
