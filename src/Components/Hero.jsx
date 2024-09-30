@@ -28,7 +28,7 @@ export default function Hero() {
             and more. Embrace your inner weeb and indulge in the world of
             Japanese animation with us!
           </h2>
-          <a href="/store/">
+          <a href="https://weebtrashorg.square.site/">
             <button className="btn btn-primary">
               Find Your
               <TypeAnimation
