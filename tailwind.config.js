@@ -11,7 +11,7 @@ export default {
       {
         mytheme: {
 
-          "primary": "#101D2E",
+          "primary": "black",
 
           "secondary": "white",
 

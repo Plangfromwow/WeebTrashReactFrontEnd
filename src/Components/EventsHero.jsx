@@ -2,9 +2,9 @@
 export default function EventHero() {
   return (
     <>
-      <div className="bg-neutral h-4"></div>
+      <div className="bg-neutral h-4 grayscale"></div>
       <div
-        className="hero min-h-96"
+        className="hero min-h-96 grayscale"
         id="EventsHero"
         style={{
           // eslint-disable-next-line no-undef
