@@ -4,7 +4,7 @@ import CityViewTemp from "../assets/CityViewTemp.jpg";
 export default function Hero() {
   return (
     <div
-      className="hero min-h-screen"
+      className="hero h-[80vh]"
       style={{
         backgroundImage: `url(${CityViewTemp})`,
       }}

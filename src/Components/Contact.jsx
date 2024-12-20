@@ -1,12 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import TrashCan from "../assets/TrashCanNoBackground.png";
+import { motion } from "motion/react";
 
 export default function Contact() {
   return (
     <>
       <div className="hero bg-secondary" id="contact-us">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
+          <motion.img
+            whileHover={{
+              rotate: 360,
+              transition: { duration: 1 },
+            }}
             src={TrashCan}
             className=" lg:md:max-w-sm rounded-full shadow-2xl"
           />

@@ -7,7 +7,7 @@ export default function Card(props) {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <div className="avatar m-2">
-        <div className="w-24 rounded-full ring ring-accent ring-offset-primary ring-offset-2 ">
+        <div className="w-24 rounded-full ring ring-neutral  ">
           <img src={TrashCan} />
         </div>
       </div>
@@ -17,27 +17,32 @@ export default function Card(props) {
           <input
             type="radio"
             name="rating-2"
-            className="mask mask-star-2 bg-accent"
+            disabled="disabled"
+            className="mask mask-star-2 bg-neutral"
           />
           <input
             type="radio"
             name="rating-2"
-            className="mask mask-star-2 bg-accent"
+            disabled="disabled"
+            className="mask mask-star-2 bg-neutral"
           />
           <input
             type="radio"
             name="rating-2"
-            className="mask mask-star-2 bg-accent"
+            disabled="disabled"
+            className="mask mask-star-2 bg-neutral"
           />
           <input
             type="radio"
             name="rating-2"
-            className="mask mask-star-2 bg-accent"
+            disabled="disabled"
+            className="mask mask-star-2 bg-neutral"
           />
           <input
             type="radio"
             name="rating-2"
-            className="mask mask-star-2 bg-accent"
+            disabled="disabled"
+            className="mask mask-star-2 bg-neutral"
             defaultChecked
           />
         </div>

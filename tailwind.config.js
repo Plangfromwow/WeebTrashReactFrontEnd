@@ -13,6 +13,26 @@ export default {
 
           "primary": "#101D2E",
 
+          "secondary": "white",
+
+          "accent": "#FFC14D",
+
+          "neutral": "black",
+
+          "base-100": "white",
+
+          "info": "#3ABFF8",
+
+          "success": "#36D399",
+
+          "warning": "#FBBD23",
+
+          "error": "#F87272",
+        },
+        mythemeOld: {
+
+          "primary": "#101D2E",
+
           "secondary": "#CFE3F8",
 
           "accent": "#FFC14D",
