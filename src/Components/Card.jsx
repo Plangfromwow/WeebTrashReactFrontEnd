@@ -5,14 +5,14 @@ export default function Card(props) {
   const { name, review } = props;
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
-      <div className="avatar m-2">
+    <div className="card w-96 bg-base-100 shadow-xl h-5/6">
+      <div className="avatar mt-2 ml-2">
         <div className="w-24 rounded-full ring ring-neutral  ">
           <img src={TrashCan} />
         </div>
       </div>
       <div className="card-body">
-        <h2 className="card-title">{name}</h2>
+        <b className="card-title">{name}</b>
         <div className="rating">
           <input
             type="radio"
@@ -47,7 +47,6 @@ export default function Card(props) {
           />
         </div>
         <p>{review}</p>
-        <div className="card-actions justify-end"></div>
       </div>
     </div>
   );

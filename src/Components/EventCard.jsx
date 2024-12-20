@@ -20,7 +20,7 @@ function EventCard(props) {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       >
-        <div className="card lg:card-side bg-secondary shadow-xl lg:ml-20 lg:mr-20 m-10 grayscale">
+        <div className="card lg:card-side bg-secondary shadow-xl lg:ml-20 lg:mr-20 m-10 grayscale hover:grayscale-0">
           <figure className="aspect-square lg:max-w-72">
             <img src={props.pic} alt={props.name} />
           </figure>

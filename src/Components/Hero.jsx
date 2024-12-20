@@ -4,7 +4,7 @@ import CityViewTemp from "../assets/CityViewTemp.jpg";
 export default function Hero() {
   return (
     <div
-      className="hero h-[80vh] grayscale"
+      className="hero h-[80vh] grayscale hover:grayscale-0"
       style={{
         backgroundImage: `url(${CityViewTemp})`,
       }}
