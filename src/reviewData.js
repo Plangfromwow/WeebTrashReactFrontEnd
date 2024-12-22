@@ -1,14 +1,14 @@
 const reviews = [
-    //     {
-    //     id: 1,
-    //     name: 'kawaiixhorror',
-    //     review: 'Always great deals! I ended up buying a lot. 😅 I appreciate the seller’s kindness and the extra goodies. I’ll definitely keep coming back to add to my collection. 💕☺️'
-    // },
-    //{
-    //     id: 2,
-    //     name: 'raecollects',
-    //     review: 'ABSOLUTELY PERFECT AHHHHHH, Weeb always comes in clutch 😩🙏 Awesome figures, very affordable merch and an overall amazing seller. All my Eva merch was packed nicely and arrived safely. Definitely buying more from seller in the future 😆🤙'
-    // }, 
+    {
+        id: 1,
+        name: 'kawaiixhorror',
+        review: 'Always great deals! I ended up buying a lot. 😅 I appreciate the seller’s kindness and the extra goodies. I’ll definitely keep coming back to add to my collection. 💕☺️'
+    },
+    {
+        id: 2,
+        name: 'raecollects',
+        review: 'ABSOLUTELY PERFECT AHHHHHH, Weeb always comes in clutch 😩🙏 Awesome figures, very affordable merch and an overall amazing seller. All my Eva merch was packed nicely and arrived safely. Definitely buying more from seller in the future 😆🤙'
+    },
     {
         id: 3,
         name: 'exe_the_hero',

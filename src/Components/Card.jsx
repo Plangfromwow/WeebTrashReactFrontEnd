@@ -5,8 +5,8 @@ export default function Card(props) {
   const { name, review } = props;
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl h-5/6">
-      <div className="avatar mt-2 ml-2">
+    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="avatar ">
         <div className="w-24 rounded-full ring ring-neutral  ">
           <img src={TrashCan} />
         </div>

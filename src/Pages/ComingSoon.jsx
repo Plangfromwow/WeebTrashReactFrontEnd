@@ -1,12 +1,11 @@
-import UnderConstruction from "../Components/UnderConstruction"
+// import UnderConstruction from "../Components/UnderConstruction";
 
+// function ComingSoon() {
+//   return (
+//     <>
+//       <UnderConstruction></UnderConstruction>
+//     </>
+//   );
+// }
 
-function ComingSoon(){
-return (<>
-    <UnderConstruction></UnderConstruction>
-</>)
-}
-
-
-
- export default ComingSoon
+// export default ComingSoon;
