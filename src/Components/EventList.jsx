@@ -5,7 +5,7 @@ function EventList() {
   if (eventData.length == 0) {
     return (
       <>
-        <div className="h-[80svh] flex items-center justify-center">
+        <div className="h-[85vh] flex items-center justify-center">
           <h1> There is nothing here.</h1>
         </div>
       </>
