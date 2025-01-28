@@ -1,3 +1,4 @@
+import eventBanner from "../assets/eventBanner.png";
 /* eslint-disable react/no-unescaped-entities */
 export default function EventHero() {
   return (
@@ -8,7 +9,7 @@ export default function EventHero() {
         id="EventsHero"
         style={{
           // eslint-disable-next-line no-undef
-          backgroundImage: `url("../pics/WeebTrashEventPic.jpeg")`,
+          backgroundImage: `url(${eventBanner})`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
