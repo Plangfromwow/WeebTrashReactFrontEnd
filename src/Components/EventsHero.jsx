@@ -3,7 +3,6 @@ import eventBanner from "../assets/eventBanner.png";
 export default function EventHero() {
   return (
     <>
-      <div className="bg-neutral h-4 grayscale"></div>
       <div
         className="hero min-h-96 grayscale"
         id="EventsHero"
@@ -17,17 +16,10 @@ export default function EventHero() {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div>
             <h1 className="text-5xl font-bold mb-5 text-base-100">
-              Come see us LIVE at{" "}
-              <span
-                className="bg-gradient-to-r bg-clip-text  text-transparent 
-            from-accent to-base-100
-            animate-text"
-              >
-                Events!
-              </span>
+            Check out our Weeb Store!
             </h1>
             <a href="/events">
-              <button className="btn btn-primary">Meet Us!</button>
+              <button className="btn btn-primary">shop our figures!</button>
             </a>
           </div>
         </div>
