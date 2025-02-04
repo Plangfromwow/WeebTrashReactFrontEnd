@@ -1,0 +1,40 @@
+name: Build and Deploy React App
+
+on:
+  push:
+    branches:
+      - prod  # or your default branch name
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # or your preferred Node.js version
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci  # Uses package-lock.json for exact versions
+
+      - name: Build project
+        run: npm run build
+        env:
+          CI: false  # In case you want to treat warnings as warnings, not errors
+
+      - name: Deploy to target repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'build'
+          destination-github-username: '${{ secrets.TARGET_USERNAME }}'
+          destination-repository-name: '${{ secrets.TARGET_REPO_NAME }}'
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: main
