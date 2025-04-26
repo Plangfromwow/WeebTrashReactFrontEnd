@@ -18,7 +18,7 @@ export default function EventHero() {
             <h1 className="text-5xl font-bold mb-5 text-base-100">
             Check out our Weeb Store!
             </h1>
-            <a href="/events">
+            <a href="https://weebtrashorg.square.site/">
               <button className="btn btn-primary">shop our figures!</button>
             </a>
           </div>
