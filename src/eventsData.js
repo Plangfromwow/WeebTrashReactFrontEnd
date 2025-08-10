@@ -2,52 +2,44 @@
  * WeebTrash Conventions and other events data
  * @
  */
+// Image assets served from public/events so we can reference by URL path without bundler parsing issues.
+// (Place files under /public/events)
+const OzokuconImg = "/events/Ozokucon.jpg";
+const MonroeComicConImg = "/events/MONROECOMICCON.jpg";
+import EventBanner from "./assets/eventBanner.png"; // fallback / placeholder (still bundled)
+
 const eventData = [
     //Should be able to copy paste one after you make it and just fill it out 
-    // {
-    //     "id": 1,
-    //     "name": "Really Cool Comic Con",
-    //     "date": "08/03/24 - 08/04/24",
-    //     "place": "Dort Financial Center",
-    //     "address": "3501 Lapeer Rd, Flint, MI",
-    //     "linkToTickets": "https://www.reallycoolcomiccon.com/",
-    //     "description": "Comics, toys, anime, video games, artists, celebrity guest, table top gaming, cosplay, Pokemon, & pop culture collectibles.",
-    //     "pic": "..\\pics\\REALLYCOOLCOMICON.jpg"
-    // },
-
-    // {
-    //     "id": 2,
-    //     "name": "Monroe Comic Con",
-    //     "date": "09/13/24 - 09/14/24",
-    //     "place": "MBT Expo Center",
-    //     "address": "3775 South Custer Road Monroe, MI 48161",
-    //     "linkToTickets": "https://www.purplepass.com/?inref=l.facebook.com#283179/Monroe_Pop_Fest-12th_Annual_Monroe_Comic_Con-FNB_Expo_Center-September-13-2024.html",
-    //     "description": "Over 150 comic book, toy, craft and artist vendors plus cosplay, food trucks, interactive panels. gaming and so much more!",
-    //     "pic": "..\\pics\\MONROECOMICCON.jpg"
-    // },
-    // {
-    //     "id": 3,
-    //     "name": "Youmacon",
-    //     "date": "10/31/24 - 11/03/24",
-    //     "place": "Huntington Place",
-    //     "address": "1 Washington Blvd, Detroit, MI 48226",
-    //     "linkToTickets": "https://www.youmacon.com/",
-    //     "description": "Youmacon is a celebration of Japanese animation, videogames, popular culture and costuming, and its influence on our own culture over the past few decades. Common themes throughout the event are Anime (Japanese animation), video games, Japanese-style artwork and comics, and the rising Internet culture influenced by all of the above."
-    //     , "pic": "..\\pics\\Youmacon.jpg"
-    // },
-    // {
-    //     "id": 4,
-    //     "name": "Otaku U",
-    //     "date": "12/07/24",
-    //     "place": "Schoolcraft College",
-    //     "address": "18600 Haggerty Rd, Livonia, MI 48152",
-    //     "linkToTickets": "https://otakuu.org/",
-    //     "description": "The meaning of Otaku to the club’s Leadership/Consulting Team and their members is being a passionate fan of anime, manga, comics, cartoons, video games, or K-Pop/J-Pop. U is taken from the word university because the convention is being held on our college campus. Our main goal is to create an event for people to come together from an array of fandoms to celebrate and share their enthusiasm with other anime fans, no matter their ages."
-    //     , "pic": "..\\pics\\otakuU.png"
-    // },
-
-
-]
-
+    {
+        id: 1,
+        name: "Ozokucon",
+        date: "08/29/25 - 08/31/25",
+        place: "Blue Water Convention Center",
+        address: "800 Harker St, Port Huron, MI 48060",
+        linkToTickets: "https://www.ozokucon.com/",
+        description: "Ozokucon is a vibrant pop culture convention that celebrates the diverse world of entertainment. From anime and video games to cartoons, comics, fiction, and fantasy, our event is a haven for enthusiasts of all ages. Immerse yourself in the captivating realms of your favorite mediums and discover new passions as you connect with like-minded individuals..",
+        pic: OzokuconImg,
+    },
+    {
+        id: 2,
+        name: "Monroe Comic Con",
+        date: "09/12/25 - 09/13/25",
+        place: "MBT Expo Center",
+        address: "3775 South Custer Road Monroe, MI 48161",
+        linkToTickets: "https://www.monroecomic-con.com/",
+        description: "Experience the ultimate comic con event in the midwest! Join us for a day filled with fun, cosplay, and excitement for the whole family. Get ready for a memorable adventure at Monroe Comic Con.",
+        pic: MonroeComicConImg,
+    },
+    {
+        id: 3,
+        name: "Youmacon",
+        date: "10/30/25 - 11/02/25",
+        place: "Huntington Place",
+        address: "1 Washington Blvd, Detroit, MI 48226",
+        linkToTickets: "https://www.youmacon.com/",
+        description: "Youmacon is a 4-day experience celebrating Japanese Animation, Gaming, and Pop Culture. Whether you’re a convention pro, or have yet to attend an Anime event, we have just what you’re looking for. Since 2005, Youmacon has been an immersive and innovative event unlike any other. Get your tickets today. ",
+        pic: EventBanner, // placeholder until actual image available
+    },
+];
 
 export default eventData;
