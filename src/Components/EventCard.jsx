@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import EventBanner from "../assets/eventBanner.png"; // fallback image
 
 /* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
@@ -9,6 +10,10 @@ import { motion } from "framer-motion";
  */
 
 function EventCard(props) {
+  // Build a descriptive, concise alt text. Allow override via props.alt if ever needed.
+  const altText =
+    props.alt ||
+    `${props.name} promotional image for event at ${props.place} (${props.date})`;
   return (
     <>
       <motion.div
@@ -21,8 +26,21 @@ function EventCard(props) {
         }}
       >
         <div className="card lg:card-side bg-secondary shadow-xl lg:ml-20 lg:mr-20 m-10 grayscale hover:grayscale-0">
-          <figure className="aspect-square lg:max-w-72">
-            <img src={props.pic} alt={props.name} />
+          <figure
+            className="aspect-square lg:max-w-72 w-full overflow-hidden"
+            aria-label={`${props.name} event image`}
+          >
+            <img
+              src={props.pic || EventBanner}
+              alt={altText}
+              loading="lazy"
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                if (e.currentTarget.src !== EventBanner) {
+                  e.currentTarget.src = EventBanner;
+                }
+              }}
+            />
           </figure>
           <div className="card-body">
             <h1 className="card-title">

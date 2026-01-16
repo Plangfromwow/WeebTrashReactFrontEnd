@@ -7,7 +7,7 @@ export default function Card(props) {
   return (
     <div className="card card-compact w-96 bg-base-100 shadow-xl">
       <div className="avatar ">
-        <div className="w-24 rounded-full ring ring-neutral  ">
+        <div className="w-24 rounded-full ring ring-neutral m-2 ">
           <img src={TrashCan} />
         </div>
       </div>
