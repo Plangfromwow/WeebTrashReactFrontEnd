@@ -1,6 +1,6 @@
 import eventData from "../eventsData";
 import EventCard from "./EventCard";
-import { ReactComponent as WnLogo } from "../assets/beachweeb.svg";
+import WnLogo from "../assets/beachweeb.svg?react";
 
 
 function EventList() {
@@ -11,7 +11,7 @@ function EventList() {
           <WnLogo></WnLogo>
           <br/>
         </div>
-        <h2 className="text-3xl text-center flex items-center justify-center pb-10">We're kicking our feet up, more events coming soon.</h2>
+        <h2 className="text-3xl text-center flex items-center justify-center pb-10">We&apos;re kicking our feet up, more events coming soon.</h2>
       </>
     );
   }

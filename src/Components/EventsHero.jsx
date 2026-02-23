@@ -1,5 +1,4 @@
 import eventBanner from "../assets/eventBanner.png";
-/* eslint-disable react/no-unescaped-entities */
 export default function EventHero() {
   return (
     <>
@@ -7,7 +6,6 @@ export default function EventHero() {
         className="hero min-h-96 grayscale"
         id="EventsHero"
         style={{
-          // eslint-disable-next-line no-undef
           backgroundImage: `url(${eventBanner})`,
         }}
       >

@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-/* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
 /**
  * EventCard that holds all information on events.

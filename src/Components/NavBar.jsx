@@ -1,4 +1,4 @@
-import { ReactComponent as WnLogo } from "../assets/wn-mark-base.svg";
+import WnLogo from "../assets/wn-mark-base.svg?react";
 import TrashCan from "../assets/TrashCanNoBackground.png";
 //import { NavLink } from "react-router-dom";
 
