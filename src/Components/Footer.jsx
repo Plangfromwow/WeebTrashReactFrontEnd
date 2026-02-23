@@ -1,4 +1,4 @@
-import { ReactComponent as WnLogo } from "../assets/wn-mark-base.svg";
+import WnLogo from "../assets/wn-mark-base.svg?react";
 export default function Footer() {
   return (
     <footer className="footer items-center p-4 bg-neutral text-neutral-content">

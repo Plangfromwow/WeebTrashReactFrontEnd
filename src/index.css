@@ -1,3 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: true;
+  color-scheme: light;
+  --color-primary: black;
+  --color-primary-content: white;
+  --color-secondary: white;
+  --color-secondary-content: black;
+  --color-accent: #FFC14D;
+  --color-accent-content: black;
+  --color-neutral: black;
+  --color-neutral-content: white;
+  --color-base-100: white;
+  --color-base-200: #f2f2f2;
+  --color-base-300: #e5e6e6;
+  --color-base-content: black;
+  --color-info: #3ABFF8;
+  --color-info-content: black;
+  --color-success: #36D399;
+  --color-success-content: black;
+  --color-warning: #FBBD23;
+  --color-warning-content: black;
+  --color-error: #F87272;
+  --color-error-content: black;
+}
+
+@theme {
+  --animate-text: text 3s ease infinite;
+}
+
+@keyframes text {
+  0%, 100% {
+    background-size: 200% 200%;
+    background-position: left center;
+  }
+  50% {
+    background-size: 200% 200%;
+    background-position: right center;
+  }
+}
